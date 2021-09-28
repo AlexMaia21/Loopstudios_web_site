@@ -1,5 +1,7 @@
 * {
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 a {
@@ -279,14 +281,14 @@ footer.rodape .parte2 div.attribution {
 		height: 100vh;
 		position: absolute;
 		top: 0px;
-		left: -100%;
-		transition: 0.3s;
+		left: -110%;
+		transition: 0.2s;
 		z-index: 998;
 	}
 
 	header section nav.menu.active {
 		left: 0px;
-		transition: 0.3s;
+		transition: 0.2s;
 	}
 
 	header section nav.menu ul {

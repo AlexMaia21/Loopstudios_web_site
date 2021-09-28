@@ -278,14 +278,14 @@ footer.rodape .parte2 div.attribution {
 		width: 100vw;
 		height: 100vh;
 		position: absolute;
-		top: -100%;
-		left: 0px;
+		top: 0px;
+		left: -100%;
 		transition: 0.3s;
 		z-index: 998;
 	}
 
 	header section nav.menu.active {
-		top: 0px;
+		left: 0px;
 		transition: 0.3s;
 	}
 
